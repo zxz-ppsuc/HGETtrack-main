@@ -1,0 +1,64 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "train.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program":"/root/autodl-tmp/HGETtrack-main/lib/train/run_training.py",  //"/root/autodl-tmp/ViPT-main/lib/train/run_training.py",
+            "console": "integratedTerminal",
+            "cwd": "/root/autodl-tmp/HGETtrack-main",
+            "args": [
+                "--script",
+                "ostrack",
+                "--config",
+                "vitb_384_mae_ce_32x4_got10k_ep100",
+                "--save_dir",
+                "./output"
+                //"--distill",
+                //"0",
+                //"--script_teacher",
+                //"vipt",
+                //"--config_teacher",
+                //"shaw_rgbt"
+
+            ],
+            "python": "/root/miniconda3/envs/mamba/bin/python" 
+
+        },
+        {
+            "name": "evaluation.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program":"/root/autodl-tmp/HGETtrack-main/RGBT_workspace/test_rgbt_mgpus.py", 
+            "console": "integratedTerminal",
+            "cwd": "/root/autodl-tmp/HGETtrack-main",
+            "args": [
+                "--dataset_name",
+                "challenge2023",
+
+                //"--script",
+                //"vipt",
+                //"--config",
+                //"shaw_rgbt",
+                //"--save_dir",
+                //"./output"
+                //"--distill",
+                //"0",
+                //"--script_teacher",
+                //"vipt",
+                //"--config_teacher",
+                //"shaw_rgbt"
+
+            ],
+            "python": "/root/miniconda3/envs/mamba/bin/python" 
+
+        }
+
+    ]
+}
