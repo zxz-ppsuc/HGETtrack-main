@@ -23,7 +23,7 @@ git clone https://github.com/zxz-ppsuc/HGETtrack-main.git
 - Please train the HGETtrack based on the [foundation model](https://github.com/botaoye/OSTrack) .
 - We will release the well-trained model of [HGETtrack](https://pan.baidu.com/s/1aNBCHMeggcB-N8RCqU9wdQ?pwd=3mpt) (code: 3mpt).
 - The generated model will be saved to the path of `./output/checkpoints/train/vipt`.
-- Please test the model. The results will be saved in the path of `/RGBT_workspace/results/challenge2023/vitb_384_mae_ce_32x4_got10k_ep100`.
+- Please test the model. The results will be saved in the path of `./RGBT_workspace/results/challenge2023/vitb_384_mae_ce_32x4_got10k_ep100`.
 - For evaluation, please download the evaluation benchmark [Toolkit](http://cvlab.hanyang.ac.kr/tracker_benchmark/) and [vlfeat](http://www.vlfeat.org/index.html) for more precision performance evaluation.
 - Refer to [HOTC](https://www.hsitracking.com/hot2022/) for evaluation.
 - Evaluation of the HGETtrack tracker. Run `python /root/HGETtrack-main/RGBT_workspace/test_HGETtrack.py`
