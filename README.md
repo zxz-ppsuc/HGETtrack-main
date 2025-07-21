@@ -1,7 +1,7 @@
 # HGETtrack
-The tracking results for SSTtrack have been released.
+The tracking results for HGETtrack have been released.
 
-- [hotc20test](https://www.hsitracking.com/) ([results](https://github.com/YZCU/SSTtrack/tree/master/tracking_results))
+- [HOTC](https://www.hsitracking.com/) ([results](https://github.com/zxz-ppsuc/HGETtrack-main/RGBT_workspace/results/challenge2023/result1))
 --------------------------------------------------------------------------------------
 
 
