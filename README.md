@@ -18,7 +18,7 @@ git clone https://github.com/zxz-ppsuc/HGETtrack-main.git
  - Please check the `requirement.txt` for details.
 
 ## Usage
-- Download the Hyperspectral training/test datasets: [HOTC](https://www.hsitracking.com/hot2022/).
+- Download the Hyperspectral training/test datasets: [HOTC](https://www.hsitracking.com/).
 - Download the pretrained model: [pretrained model](https://pan.baidu.com/s/1n95fom7Fe0bJuEB_GfTgNw?pwd=p9ai) (code: p9ai) to `./pretrained_models/`.
 - Please train the HGETtrack based on the [foundation model](https://github.com/botaoye/OSTrack) .
 - We will release the well-trained model of [HGETtrack](https://pan.baidu.com/s/1aNBCHMeggcB-N8RCqU9wdQ?pwd=3mpt) (code: 3mpt).
@@ -27,7 +27,6 @@ git clone https://github.com/zxz-ppsuc/HGETtrack-main.git
 - For evaluation, please download the evaluation benchmark [Toolkit](http://cvlab.hanyang.ac.kr/tracker_benchmark/) and [vlfeat](http://www.vlfeat.org/index.html) for more precision performance evaluation.
 - Refer to [HOTC](https://www.hsitracking.com/hot2022/) for evaluation.
 - Evaluation of the HGETtrack tracker. Run `python /root/HGETtrack-main/RGBT_workspace/test_HGETtrack.py`
-- Relevant tracking results are provided in `/root/autodl-tmp/HGETtrack-main/RGBT_workspace/results/challenge2023/result1`.
 
 ## Contact
 If you have any questions or suggestions, feel free to contact me.  
