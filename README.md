@@ -1,7 +1,7 @@
 # HGETtrack
 The tracking results for HGETtrack have been released.
 
-- [HOTC](https://www.hsitracking.com/) (https://github.com/zxz-ppsuc/HGETtrack-main/RGBT_workspace/results/challenge2023/result1/))
+- [HOTC](https://www.hsitracking.com/) ([results]https://github.com/zxz-ppsuc/HGETtrack-main/blob/main/RGBT_workspace/results/challenge2023/result1/)
 --------------------------------------------------------------------------------------
 
 
